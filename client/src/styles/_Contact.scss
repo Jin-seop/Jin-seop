@@ -1,0 +1,37 @@
+
+@media (min-width:992px){
+  .contactContants {
+    position: absolute;
+    top:30%;
+    left: 40%;
+    height: 10%;
+    width: 20%;
+    margin: -100 0 0 -100;
+      input {
+        width:100%;
+        border-radius: 5px 5px;
+      }
+      button {
+        font-size: 1.3em;
+        width: 4em;
+        height: 4em;
+        margin-top: 15px;
+        border: 0;
+        background-color: white;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+      .contactText {
+        font-size: 2em;
+      }
+    }
+  .backArrow {
+    position: absolute;
+    bottom: 3%;
+    left: 28%;
+    width: 100px;
+    height: 80px;
+    margin-top: 15px;
+  }
+}

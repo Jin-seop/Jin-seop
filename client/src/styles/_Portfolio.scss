@@ -1,0 +1,31 @@
+@media (min-width:992px){
+  
+.portfolioH1 {
+  line-height: 350px;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  font-size: 3em;
+}
+.portfolioContacts {
+  height: 500px;
+  margin : 10px 0 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  ul {
+    padding: 0;
+    width: 70%;
+    list-style: none;
+      li {
+        display: inline-block;
+        margin: 30px;
+      }
+      a:hover {
+        cursor: pointer;
+      }
+  }
+}
+}
