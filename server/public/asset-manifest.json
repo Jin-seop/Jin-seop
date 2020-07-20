@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "./static/css/main.4931e670.chunk.css",
+    "main.js": "./static/js/main.e841b82b.chunk.js",
+    "main.js.map": "./static/js/main.e841b82b.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.8b0ae790.js",
+    "runtime-main.js.map": "./static/js/runtime-main.8b0ae790.js.map",
+    "static/js/2.6271650c.chunk.js": "./static/js/2.6271650c.chunk.js",
+    "static/js/2.6271650c.chunk.js.map": "./static/js/2.6271650c.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.74d89affeaed18e264c64a3ac56f09b6.js": "./precache-manifest.74d89affeaed18e264c64a3ac56f09b6.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.4931e670.chunk.css.map": "./static/css/main.4931e670.chunk.css.map",
+    "static/js/2.6271650c.chunk.js.LICENSE.txt": "./static/js/2.6271650c.chunk.js.LICENSE.txt",
+    "static/media/back.png": "./static/media/back.13d93e0c.png",
+    "static/media/burger.png": "./static/media/burger.16887f36.png",
+    "static/media/css.png": "./static/media/css.f90d5832.png",
+    "static/media/express.png": "./static/media/express.26bdcd15.png",
+    "static/media/html.png": "./static/media/html.89315885.png",
+    "static/media/img1.png": "./static/media/img1.89b2ab4c.png",
+    "static/media/js.png": "./static/media/js.e56e37de.png",
+    "static/media/mysql.png": "./static/media/mysql.d55ac346.png",
+    "static/media/nodejs.png": "./static/media/nodejs.55e83371.png",
+    "static/media/react.png": "./static/media/react.f297dfcd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b0ae790.js",
+    "static/js/2.6271650c.chunk.js",
+    "static/css/main.4931e670.chunk.css",
+    "static/js/main.e841b82b.chunk.js"
+  ]
+}
