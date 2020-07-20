@@ -6,14 +6,22 @@ import '../styles/_Contact.scss'
 
 
 const Contact = () => {
-  const [text,useText] = useState('')
+  const [text,setText] = useState('')
   const textHandler = (e) => {
     // eslint-disable-next-line react-hooks/rules-of-hooks
-    useText(e.target.value)
+    setText(e.target.value)
   }
 
   const submitHandler = (e) => {
     e.preventDefault()
+    fetch('http://localhost:8080/email',{
+      method:'POST',
+      headers:{
+        'Content-Type':'application/json'
+      },
+      body:JSON.stringify({text})
+    })
+    setText('')
   }
   
   return(
@@ -21,7 +29,7 @@ const Contact = () => {
       <Link to='portfolio'><img src={upArrow} className='upArrow'/> </Link>
       <div className='contactContants'>
         <form>
-          <input type="text" placeholder='E-mail' onChange={textHandler}/>
+          <input type="text" placeholder='E-mail' onChange={textHandler} value={text}/>
           <button onClick={submitHandler}>보내기</button>
         </form>
           <div className='contactText'>
