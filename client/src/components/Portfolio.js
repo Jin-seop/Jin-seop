@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom'
 import downArrow from '../assets/download.png'
 import upArrow from '../assets/upload.png'
 import '../styles/_Portfolio.scss'
-
+import Css from '../assets/css.png'
+import Express from '../assets/express.png'
 
 const Portfolio = () => {
   return(
@@ -13,16 +14,16 @@ const Portfolio = () => {
         <div className='portfolioContacts'>
           <ul>
             <li>
-              <a src='#'>
-                <img src='#'/>
-              </a>
-              <p>설명</p>
+              <div className='imgWrapper'>
+                <img src={Css}/>
+                <p>설명<br/>asdasdasdasdasdasdas<br/>dasdasdaasdasdasdasd</p>
+              </div>
             </li>
             <li>
-              <a src='#'>
-                <img src='#'/>
-              </a>
-              <p>설명</p>
+              <div className='imgWrapper'>
+                <img src={Express}/>
+                <p>설명<br/>asdasdasdasdasdasdas<br/>dasdasdaasdasdasdasd</p>
+              </div>
             </li>
           </ul>
         </div>

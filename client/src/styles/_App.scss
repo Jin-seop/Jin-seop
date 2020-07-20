@@ -1,3 +1,31 @@
   .AppWrapper {
     text-align: center;
   }
+
+
+  .MenuWrapper {
+    float: left;
+    margin: 15px 0 0 15px;
+  }
+  .Menu {
+    width: 5em;
+    height: 5em;
+    background-color: white;
+    border-radius: 3px 3px;
+    cursor: pointer;
+  }
+
+  .MenuItems{
+    display: flex;
+    flex-direction: column;
+    &>button {
+      width: 5em;
+      height: 5em;
+      border-radius: 3px 3px;
+      background-color: white;
+      cursor: pointer;
+    }
+    &>button:hover {
+      background-color: rgb(222, 241, 183);
+    }
+  }
