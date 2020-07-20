@@ -11,20 +11,81 @@
         font-size: 3em;
       }
       .skillsP {
-        width: 80%;
-        height: 5em;
-        font-size: 1.8em;
-        margin: 0 auto;
+        width: 100%;
+        height: 2em;
+        font-size: 200%;
         padding: 0;
         word-spacing: 0.5em;
       }
       .SkillsImgWrapper {
           width: 100%;
-          margin-top: 3%;
           margin-left: 20%;
         .SkillsImg{
           width: 3.5%;
           height: 3.5%;
+          margin-left: 3.5% ;
+        }
+      }
+  }
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+  .skillsWrapper {
+    line-height: 25em;
+    text-align: center;
+      .skillsH1{
+        width: 97%;
+        height: 4em;
+        margin-left: 2%;
+        margin-top: 0;
+        padding: 0;
+        font-size: 3em;
+      }
+      .skillsP {
+        width: 100%;
+        height: 2em;
+        font-size: 150%;
+        padding: 0;
+        word-spacing: 0.5em;
+      }
+      .SkillsImgWrapper {
+          width: 100%;
+          margin-left: 10%;
+        .SkillsImg{
+          width: 5%;
+          height: 5%;
+          margin-left: 3.5% ;
+        }
+      }
+  }
+}
+
+@media (max-width:767px) {
+  .skillsWrapper {
+    line-height: 13em;
+    text-align: center;
+      .skillsH1{
+        width: 97%;
+        height: 3em;
+        margin-left: 5%;
+        margin-top: 1.5%;
+        padding: 0;
+        font-size: 3em;
+      }
+      .skillsP {
+        width: 100%;
+        height: 2em;
+        font-size: 80%;
+        padding: 0;
+        word-spacing: 0.3em;
+      }
+      .SkillsImgWrapper {
+          width: 100%;
+          margin-left: -3%;
+        .SkillsImg{
+          width: 7%;
+          height: 5%;
           margin-left: 3.5% ;
         }
       }

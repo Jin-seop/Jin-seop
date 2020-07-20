@@ -1,8 +1,15 @@
+@media (min-width:992px){
   .AppWrapper {
     text-align: center;
   }
 
-
+  .burgerBar {
+    margin: 0;
+    margin-left: 0.5em;
+    width: 3em;
+    height: 3em;
+  }
+  
   .MenuWrapper {
     float: left;
     margin: 15px 0 0 15px;
@@ -13,6 +20,9 @@
     background-color: white;
     border-radius: 3px 3px;
     cursor: pointer;
+    &>p{
+      font-size: 1.3em;
+    }
   }
 
   .MenuItems{
@@ -29,3 +39,87 @@
       background-color: rgb(222, 241, 183);
     }
   }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  .AppWrapper {
+    text-align: center;
+  }
+
+  .burgerBar {
+    margin: 0;
+    width: 3em;
+    height: 3em;
+  }
+  
+  .MenuWrapper {
+    float: left;
+    margin: 15px 0 0 15px;
+  }
+  .Menu {
+    width: 55em;
+    height: 6em;
+    background-color: white;
+    border-radius: 3px 3px;
+    cursor: pointer;
+  }
+
+  .MenuItems{
+    display: flex;
+    flex-direction: column;
+    &>button {
+      width: 55em;
+      height: 5em;
+      border-radius: 3px 3px;
+      background-color: white;
+      cursor: pointer;
+    }
+    &>button:hover {
+      background-color: rgb(222, 241, 183);
+    }
+  }
+}
+
+@media (max-width:767px) {
+  .AppWrapper {
+    text-align: center;
+  }
+
+  .burgerBar {
+    margin: 0;
+    margin-left: 0em;
+    width: 3em;
+    height: 3em;
+    padding: 0;
+  }
+  
+  .MenuWrapper {
+    float: left;
+    margin: 15px 0 0 15px;
+  }
+  .Menu {
+    width: 25em;
+    height: 4em;
+    background-color: white;
+    border-radius: 3px 3px;
+    cursor: pointer;
+    &>p {
+      display: inline-block;
+    }
+  }
+
+  .MenuItems{
+    display: flex;
+    flex-direction: column;
+    &>button {
+      width: 40em;
+      height: 5em;
+      border-radius: 3px 3px;
+      background-color: white;
+      cursor: pointer;
+    }
+    &>button:hover {
+      background-color: rgb(222, 241, 183);
+    }
+  }
+}

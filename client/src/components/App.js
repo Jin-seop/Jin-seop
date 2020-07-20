@@ -5,6 +5,7 @@ import Main from './Main';
 import Portfolio from './Portfolio'
 import Skills from './Skills'
 import Contact from './Contact';
+import burger from '../assets/burger.png'
 
 
 
@@ -20,16 +21,16 @@ function App() {
     return (
       <div className='MenuItems'>
       <button>
-      <Link to='/' >Home</Link>
+        <Link to='/' >Home</Link>
       </button>
       <button>
-      <Link to='/skills' >Skills</Link>
+        <Link to='/skills' >Skills</Link>
       </button>
       <button>
-      <Link to='/portfolio' >Portfolio</Link>
+        <Link to='/portfolio' >Portfolio</Link>
       </button>
       <button>
-      <Link to='/contact' >Contact</Link>
+        <Link to='/contact' >Contact</Link>
       </button> 
       </div>
       )
@@ -37,7 +38,7 @@ function App() {
   return (
     <div className='AppWrapper'>
     <span className='MenuWrapper'>
-        <button className='Menu' onClick={MenuSeleteHandler}>≡</button>
+        <button className='Menu' onClick={MenuSeleteHandler}><img src={burger} className='burgerBar'/><p>Menu</p></button>
         {MenuSelete === true ? MenuHandler() : null}
       </span>
       <Switch>
