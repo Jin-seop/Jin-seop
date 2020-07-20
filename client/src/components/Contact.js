@@ -6,7 +6,6 @@ import '../styles/_Contact.scss'
 
 
 const Contact = () => {
-
   const [text,useText] = useState('')
   const textHandler = (e) => {
     // eslint-disable-next-line react-hooks/rules-of-hooks

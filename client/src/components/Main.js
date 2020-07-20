@@ -1,12 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import img1 from '../assets/img1.png'
 import '../styles/_Main.scss'
 import downArrow from '../assets/download.png'
 
 const Main = () => {
+
   return (
     <div>
+      
         <img src={img1} />
         <div className='MainTextWrapper'>
           <h1 className='MainText'>안녕하세요,방문해 주셔서 감사합니다.</h1>

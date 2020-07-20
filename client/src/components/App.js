@@ -1,5 +1,5 @@
-import React from 'react';
-import { Route,Switch } from 'react-router-dom'
+import React,{useState} from 'react';
+import { Route,Switch,Link } from 'react-router-dom'
 import '../styles/_App.scss'
 import Main from './Main';
 import Portfolio from './Portfolio'
@@ -9,8 +9,37 @@ import Contact from './Contact';
 
 
 function App() {
+  const [MenuSelete,setMenuSelete] = useState(false)
+  
+  const MenuSeleteHandler = () => {
+    setMenuSelete(!MenuSelete)
+  } 
+
+
+  const MenuHandler = () => {
+    return (
+      <div className='MenuItems'>
+      <button>
+      <Link to='/' >Home</Link>
+      </button>
+      <button>
+      <Link to='/skills' >Skills</Link>
+      </button>
+      <button>
+      <Link to='/portfolio' >Portfolio</Link>
+      </button>
+      <button>
+      <Link to='/contact' >Contact</Link>
+      </button> 
+      </div>
+      )
+    }
   return (
     <div className='AppWrapper'>
+    <span className='MenuWrapper'>
+        <button className='Menu' onClick={MenuSeleteHandler}>≡</button>
+        {MenuSelete === true ? MenuHandler() : null}
+      </span>
       <Switch>
         <Route exact path='/' component={Main}/>
         <Route path='/portfolio' component={Portfolio}/>
