@@ -110,7 +110,9 @@
 
   .MenuItems{
     display: flex;
+    position: absolute;
     flex-direction: column;
+    z-index: 2;
     &>button {
       width: 25em;
       height: 4em;
