@@ -28,6 +28,8 @@
   .MenuItems{
     display: flex;
     flex-direction: column;
+    position: absolute;
+    z-index: 2;
     &>button {
       width: 5em;
       height: 5em;
@@ -67,6 +69,8 @@
   .MenuItems{
     display: flex;
     flex-direction: column;
+    position: absolute;
+    z-index: 2;
     &>button {
       width: 55em;
       height: 5em;
@@ -110,8 +114,8 @@
 
   .MenuItems{
     display: flex;
-    position: absolute;
     flex-direction: column;
+    position: absolute;
     z-index: 2;
     &>button {
       width: 25em;
