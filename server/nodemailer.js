@@ -24,7 +24,7 @@ const smtpTransport = nodemailer.createTransport(smtpPool({
 
   //gmail 계정과 암호 
   auth: {
-    user: 'turn3361@gmail.com',
+    user: ',
     pass: ''
   },
   maxConnections: 5,
@@ -32,8 +32,8 @@ const smtpTransport = nodemailer.createTransport(smtpPool({
 }));
 
 var mailOpt = {
-  from: 'turn3361@gmail.com',
-  to: 'turn3361@gmail.com',
+  from: '',
+  to: '',
   subject: 'Nodemailer 테스트',
   html: '<h1>우하하하 스팸 아님 테스트임</h1>'
 };
