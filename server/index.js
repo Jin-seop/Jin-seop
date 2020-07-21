@@ -58,14 +58,14 @@ app.post('/email', (req, res) => {
     subject: 'Nodemailer 테스트',
     html: '<h1>우하하하 스팸 아님 테스트임</h1>'
   };
-
+  console.log(mailOpt);
   smtpTransport.sendMail(mailOpt, function (err, res) {
     if (err) {
       console.log(err);
     } else {
       console.log('Message send :' + res);
     }
-    smtpTransport.close();
+    // smtpTransport.close();
   });
 });
 
