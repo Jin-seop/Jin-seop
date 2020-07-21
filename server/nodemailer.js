@@ -25,7 +25,7 @@ const smtpTransport = nodemailer.createTransport(smtpPool({
   //gmail 계정과 암호 
   auth: {
     user: 'turn3361@gmail.com',
-    pass: 'Dkdleldj9!'
+    pass: ''
   },
   maxConnections: 5,
   maxMessages: 10
