@@ -7,8 +7,7 @@ import downArrow from '../assets/download.png'
 const Main = () => {
 
   return (
-    <div>
-      
+    <div>  
         <img src={img1} />
         <div className='MainTextWrapper'>
           <h1 className='MainText'>안녕하세요,방문해 주셔서 감사합니다.</h1>

@@ -4,6 +4,7 @@
     line-height: 6.3em;
     height: 2em;
     margin: 0;
+    margin-left: -6%;
     padding: 0;
     font-size: 3em;
   }
@@ -108,7 +109,7 @@
 @media (max-width:767px) {
   .portfolioH1 {
     width: 97%;
-    line-height: 5em;
+    line-height: 24vh;
     height: 2em;
     margin: 0;
     margin-left: 0.5em;
@@ -116,9 +117,9 @@
     font-size: 2em;
   }
   .portfolioContacts {
-    height: 15em;
-    margin : 1em;
-    margin-top: 4em;
+    height: 35vh;
+    margin : 4vh;
+    margin-top: 10vh;
     padding-top: 1em;
     display: flex;
     flex-wrap: wrap;
@@ -132,7 +133,7 @@
       &>li {
           position: relative;
           display: inline-block;
-          margin: 10%;
+          margin: 20% 10% 20% 10%;
           text-align: center;
         
         }

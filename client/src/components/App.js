@@ -20,18 +20,18 @@ function App() {
   const MenuHandler = () => {
     return (
       <div className='MenuItems'>
-      <button>
-        <Link to='/' >Home</Link>
-      </button>
-      <button>
-        <Link to='/skills' >Skills</Link>
-      </button>
-      <button>
-        <Link to='/portfolio' >Portfolio</Link>
-      </button>
-      <button>
-        <Link to='/contact' >Contact</Link>
-      </button> 
+        <button>
+          <Link to='/' >Home</Link>
+        </button>
+        <button>
+          <Link to='/skills' >Skills</Link>
+        </button>
+        <button>
+          <Link to='/portfolio' >Portfolio</Link>
+        </button>
+        <button>
+          <Link to='/contact' >Contact</Link>
+        </button> 
       </div>
       )
     }

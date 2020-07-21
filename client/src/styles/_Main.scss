@@ -57,6 +57,7 @@
     left: 28%;
     width: 6em;
     height: 4em;
+    margin-top: 5%;
     z-index: 1;
   }
   .downArrow {
@@ -84,7 +85,7 @@
     height: 30%;
     float: left;
     margin-left: 20%;
-    margin-top: 30%;
+    margin-top: 15vh;
     opacity: 0.8;
   }
   
@@ -92,7 +93,7 @@
     width: 30%;
     float: left;
     height: 60px;
-    margin-top: 50%;
+    margin-top: 35vh;
     transform: translate(5%,-50%);
     overflow: hidden;
       &>p {
@@ -133,10 +134,11 @@
 
   .upArrow {
     position: absolute;
-    top: -6em;
+    top: -20%;
     left: 25%;
     width: 6em;
     height: 4em;
+    margin-top: 33vh;
     z-index: 1;
   }
   .downArrow {
@@ -162,14 +164,14 @@
     width: 50%;
     height: 50%;
     margin-left: 5%;
-    margin-top: 30%;
+    margin-top: 10vh;
     opacity: 0.8;
   }
   
   .MainTextWrapper {
     width: 100%;
     height: 20px;
-    margin-top: 20%;
+    margin-top: 5vh;
     transform: translate(1%,-50%);
     overflow: hidden;
       &>p {
@@ -210,10 +212,11 @@
 
   .upArrow {
     position: absolute;
-    top: -1em;
+    top: -15%;
     left: 40%;
     width: 4em;
     height: 2em;
+    margin-top: 27vh;
     z-index: 1;
   }
   .downArrow {
