@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom'
 import upArrow from '../assets/upload.png'
 import backArrow from '../assets/back.png'
 import '../styles/_Contact.scss'
-
+import Tistory from '../assets/Tistory.png'
+import github from '../assets/github.png'
 
 const Contact = () => {
   const [text,setText] = useState('')
@@ -23,10 +24,20 @@ const Contact = () => {
     })
     setText('')
   }
-  
   return(
-    <div className='contactWrapper'>
-      <Link to='portfolio'><img src={upArrow} className='upArrow'/> </Link>
+    <div >
+      <Link to='portfolio'>
+        <img src={upArrow} className='upArrow' alt=''/> 
+      </Link>
+      <h1 className='title'>Contect</h1>
+      <div className='contactImg'>
+        <a href='https://github.com/Jin-seop' target='_blank' rel="noopener noreferrer">
+          <img src={github} alt=''></img>
+        </a>
+        <a href='https://newjsdeveloper.tistory.com/' target='_blank'rel="noopener noreferrer">
+          <img className='TistoryImg' src={Tistory} alt=''></img>
+        </a>  
+      </div>
       <div className='contactContants'>
         <form>
           <input type="text" placeholder='E-mail' onChange={textHandler} value={text}/>
@@ -38,7 +49,7 @@ const Contact = () => {
             <p>방문해 주셔서 감사합니다.</p> 
           </div>
       </div>
-      <Link to='/' ><img src={backArrow} className='backArrow'/></Link>
+      <Link to='/' ><img src={backArrow} className='backArrow' alt=''/></Link>
     </div>
   )
 }

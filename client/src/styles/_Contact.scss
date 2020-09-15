@@ -1,87 +1,80 @@
 
-@media (min-width:992px){
-  .contactContants {
-    position: absolute;
-    top:30%;
-    left: 40%;
-    height: 10%;
-    width: 20%;
-    margin: -100 0 0 -100;
-      input {
-        width:100%;
-        border-radius: 5px 5px;
-      }
-      button {
-        font-size: 1em;
-        width: 4em;
-        height: 4em;
-        margin-top: 15px;
-        border: 0;
-        background-color: white;
-        &:hover {
-          cursor: pointer;
-        }
-      }
-      .contactText {
-        font-size: 2em;
-      }
-    }
-}
-
-
-@media (min-width:768px) and (max-width:991px) {
-  .contactContants {
-    position: absolute;
-    top:30%;
-    left: 30%;
-    height: 10%;
-    width: 40%;
-    margin: -100 0 0 -100;
-      input {
-        width:100%;
-        border-radius: 5px 5px;
-      }
-      button {
-        font-size: 1em;
-        width: 4em;
-        height: 4em;
-        margin-top: 15px;
-        border: 0;
-        background-color: white;
-        &:hover {
-          cursor: pointer;
-        }
-      }
-      .contactText {
-        font-size: 1.3em;
-      }
-    }
-}
 
 @media (max-width:767px) {
-  .contactContants {
-    position: absolute;
-    top:40%;
-    left: 30%;
-    height: 10%;
-    width: 40%;
-      input {
-        width:100%;
-        border-radius: 5px 5px;
-      }
-      button {
-        font-size: 0.5em;
-        width: 5em;
-        height: 4em;
-        margin-top: 15px;
-        border: 0;
-        background-color: white;
-        &:hover {
-          cursor: pointer;
-        }
-      }
-      .contactText {
-        font-size: 0.5em;
+  .contactImg{
+    & > a{
+      width: 50px;
+      margin-right: 20px;
+      margin-left: 20px;
+      cursor: pointer;
+      & > img {
+        width: 50px;
       }
     }
+  }
+.TistoryImg {
+  padding-bottom: 20px;
+}
+
+  .contactContants {
+    width: auto;
+    margin-top: 5%;
+  }
+  .contactContants input{
+    width: 130px;
+  }
+  .contactText {
+    font-size: 18px;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  .contactImg{
+    & > a{
+      width: 50px;
+      margin-right: 20px;
+      margin-left: 20px;
+      cursor: pointer;
+      & > img {
+        width: 50px;
+      }
+    }
+  }
+  .contactContants {
+    width: auto;
+  }
+  .contactContants input{
+    width: 180px;
+  }
+  .contactText {
+    font-size: 18px;
+  }
+}
+
+@media (min-width:992px){
+  .contactImg{
+    & > a{
+      width: 50px;
+      margin-right: 20px;
+      margin-left: 20px;
+      cursor: pointer;
+      & > img {
+        width: 50px;
+      }
+    }
+  }
+.TistoryImg {
+  padding-bottom: 20px;
+}
+
+  .contactContants {
+    width: auto;
+    margin-top: 5%;
+  }
+  .contactContants input{
+    width: 130px;
+  }
+  .contactText {
+    font-size: 18px;
+  }
 }

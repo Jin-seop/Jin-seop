@@ -1,138 +1,83 @@
-@media (min-width:992px){
-  .AppWrapper {
-    text-align: center;
-  }
+.AppWrapper {
+  text-align: center;
+}
 
-  .burgerBar {
-    margin: 0;
-    width: 100%;
-    height: 3em;
-  }
-  
-  .MenuWrapper {
-    float: left;
-    width: 10%;
-    margin: 15px 0 0 15px;
-  }
-  .Menu {
-    float: left;
-    width: 5em;
-    height: 5em;
-    background-color: white;
-    border-radius: 3px 3px;
-    cursor: pointer;
-    &>p{
-      font-size: 1em;
-    }
-  }
-
-  .MenuItems{
-    display: flex;
-    flex-direction: column;
+@media (max-width:767px) {
+  .upArrow {
     position: absolute;
-    margin-top: 7vh;
-    width: 100vw;
-    z-index: 2;
-    &>button {
-      width: 5em;
-      height: 5em;
-      border-radius: 3px 3px;
-      background-color: white;
-      cursor: pointer;
-    }
-    &>button:hover {
-      background-color: rgb(222, 241, 183);
-    }
+    left: 35%;
+    width: 6em;
+    height: 4em;
+    margin-top: 5%;
+    z-index: 1;
+  }
+  .downArrow {
+    bottom: 3%;
+    left: 35%;
+    width: 6em;
+    height: 4em;
+    margin-top: -40px;
+  }
+  .backArrow {
+    width: 6em;
+    height: 4em;
+  }
+
+  .title {
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 20px;
   }
 }
 
 @media (min-width:768px) and (max-width:991px) {
-  .AppWrapper {
-    text-align: center;
-  }
-
-  .burgerBar {
-    margin: 0;
-    width: 3em;
-    height: 3em;
-  }
-  
-  .MenuWrapper {
-    width: 96%;
-    float: left;
-    margin: 15px 0 0 15px;
-  }
-  .Menu {
-    width:100%;
-    height: 6em;
-    background-color: white;
-    border-radius: 3px 3px;
-    cursor: pointer;
-  }
-
-  .MenuItems{
-    display: flex;
-    flex-direction: column;
+  .upArrow {
     position: absolute;
-    width: 100%;
-    z-index: 2;
-    &>button {
-      width: 96vw;
-      height: 5em;
-      border-radius: 3px 3px;
-      background-color: white;
-      cursor: pointer;
-    }
-    &>button:hover {
-      background-color: rgb(222, 241, 183);
-    }
+    left: 42%;
+    width: 6em;
+    height: 4em;
+    margin-top: 5%;
+    z-index: 1;
+  }
+  .downArrow {
+    left: 35%;
+    width: 6em;
+    height: 4em;
+    margin-top: -15px;
+  }
+  .backArrow {
+    width: 6em;
+    height: 4em;
+  }
+
+  .title {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 20%;
+    font-size: 80px;
   }
 }
 
-@media (max-width:767px) {
-  .AppWrapper {
-    text-align: center;
-  }
-
-  .burgerBar {
-    margin: 0;
-    margin-left: 0em;
-    width: 3em;
-    height: 3em;
-    padding: 0;
-  }
-  
-  .MenuWrapper {
-    width: 94%;
-    float: left;
-    margin: 15px 0 0 15px;
-  }
-  .Menu {
-    width: 100%;
-    height: 4em;
-    background-color: white;
-    border-radius: 3px 3px;
-    cursor: pointer;
-    &>p {
-      display: inline-block;
-    }
-  }
-
-  .MenuItems{
-    display: flex;
-    flex-direction: column;
+@media (min-width:992px){
+  .upArrow {
     position: absolute;
-    width: 100%;
-    z-index: 2;
-    &>button {
-      width: 94vw;
-      height: 4em;
-      border-radius: 3px 3px;
-      background-color: white;
-      cursor: pointer;
-    }
-    &>button:hover {
-      background-color: rgb(222, 241, 183);
-    }
+    left: 45%;
+    width: 6em;
+    height: 4em;
+    z-index: 1;
+  }
+  .downArrow {
+    width: 6em;
+    height: 4em;
+  }
+  .backArrow {
+    width: 6em;
+    height: 4em;
+  }
+
+  .title {
+    display: inline-block;
+    margin-top: 8%;
+    font-size: 32px;
   }
 }
