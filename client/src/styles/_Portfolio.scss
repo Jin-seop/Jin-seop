@@ -73,12 +73,13 @@
   }
 
   .imgWrapper {
-    margin-bottom: 5%;
+    margin-bottom: 20%;
     & > img {
       border-radius: 10px;
       cursor: pointer;
     }
     & > p{
+      font-size: 2rem;
       width: 50%;
       margin: 0 auto;
     }

@@ -63,18 +63,18 @@
       }
     }
   }
-.TistoryImg {
-  padding-bottom: 20px;
-}
-
+  .TistoryImg {
+    padding-bottom: 15px;
+  }
   .contactContants {
     width: auto;
-    margin-top: 5%;
   }
   .contactContants input{
-    width: 130px;
+    margin-top: 3%;
+    width: 300px;
   }
   .contactText {
-    font-size: 18px;
+    font-size: 2rem;
+    margin-bottom: 10%;
   }
 }

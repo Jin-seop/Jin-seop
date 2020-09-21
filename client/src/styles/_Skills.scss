@@ -58,25 +58,30 @@
     height: 100%;
   }
   
+  .title{
+    font-size: 4rem;
+  }
+
   .SkillsImgWrapper{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 90%;
-    margin: 0 auto;
-    margin-bottom: 3%;
+    width: 80%;
+    margin: 5% auto;
+    margin-bottom: 15%;
+    
   }
   
   .SkillsImg {
-    width: 50px;
-    margin: 14px;
+    width: 100px;
+    margin: 10px;
   }
   
   .SkillsP {
     width: 100px;
     font-size: 30px;
-    margin: 10px 20px
+    margin: 10px 20px;
   }
 }
