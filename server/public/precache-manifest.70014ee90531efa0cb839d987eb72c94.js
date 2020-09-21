@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a03872415eb80ec3a12ced86fbbadbc4",
+    "revision": "1279140a971b76cb4dde2d0c5915a4ce",
     "url": "./index.html"
   },
   {
-    "revision": "23c26e41346bdb7d6546",
-    "url": "./static/css/main.d09eee86.chunk.css"
+    "revision": "e089a39aca38a3459717",
+    "url": "./static/css/main.3ef18545.chunk.css"
   },
   {
-    "revision": "f66e7b591e03624bd9b8",
-    "url": "./static/js/2.6271650c.chunk.js"
+    "revision": "3b4ac07f276582724113",
+    "url": "./static/js/2.5be4c70c.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "./static/js/2.6271650c.chunk.js.LICENSE.txt"
+    "url": "./static/js/2.5be4c70c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "23c26e41346bdb7d6546",
-    "url": "./static/js/main.be63ca99.chunk.js"
+    "revision": "e089a39aca38a3459717",
+    "url": "./static/js/main.2adc125b.chunk.js"
   },
   {
     "revision": "d90c5b93796701d5570a",
@@ -28,12 +28,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/back.13d93e0c.png"
   },
   {
-    "revision": "16887f3634dfc7ba55d322694673a501",
-    "url": "./static/media/burger.16887f36.png"
+    "revision": "87dd0447b41bc5d08b75213b456f5bf4",
+    "url": "./static/media/cooksiin.87dd0447.png"
   },
   {
     "revision": "f90d5832401d2705d259b7bea9b264e8",
     "url": "./static/media/css.f90d5832.png"
+  },
+  {
+    "revision": "f8bd5f3062acd2e5259d134e18f5b952",
+    "url": "./static/media/dosiin.f8bd5f30.png"
+  },
+  {
+    "revision": "a7b9a24c9a6f1efd7689030f3536bfe9",
+    "url": "./static/media/expo.a7b9a24c.png"
   },
   {
     "revision": "26bdcd1522937d05915328db94148a7a",
@@ -62,5 +70,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f297dfcd8b3e9215ee862f232d5c9d13",
     "url": "./static/media/react.f297dfcd.png"
+  },
+  {
+    "revision": "4e96f1110cb872407e837d4fc1440f96",
+    "url": "./static/media/typescript.4e96f111.png"
   }
 ]);
