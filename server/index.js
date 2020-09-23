@@ -2,12 +2,12 @@ const express = require('express');
 const cors = require('cors');
 const path = require('path');
 const fs = require('fs');
-const password = require('./password');
+
 
 const app = express();
 
 const emailListPath = path.join(__dirname, '/public', 'emailList.json');
-const PORT = 8080;
+const PORT = 3000;
 
 const nodemailer = require('nodemailer');
 //smtp 서버를 사용하기 위한 모듈이다.
@@ -31,7 +31,7 @@ const smtpTransport = nodemailer.createTransport(smtpPool({
   //gmail 계정과 암호 
   auth: {
     user: 'turn3361@gmail.com',
-    pass: password.passoword
+    pass: 'Dkdleldj9!'
   },
   maxConnections: 5,
   maxMessages: 10
@@ -60,7 +60,7 @@ app.post('/email', (req, res) => {
   };
   smtpTransport.sendMail(mailOpt, function (err, res) {
     if (err) {
-      console.log(err);
+      console.err(err);
     } else {
       console.log('Message send :' + res);
     }
