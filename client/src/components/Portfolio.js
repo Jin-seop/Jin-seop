@@ -19,7 +19,7 @@ const Portfolio = () => {
         <ul>
           <li>
             <div className='imgWrapper'>
-              <a href='https://github.com/codestates/DO.SI.IN-client' target='_blank' rel="noopener noreferrer">
+              <a href='https://github.com/Jin-seop/Do_for_city_in-client' target='_blank' rel="noopener noreferrer">
                 <img src={dosiin} alt='' />
               </a>
               <p>식재료 공유 안드로이드 앱</p>
@@ -27,7 +27,7 @@ const Portfolio = () => {
           </li>
           <li>
             <div className='imgWrapper'>
-              <a href='https://github.com/codestates/Cook.Si.In-client' target='_blank' rel="noopener noreferrer">
+              <a href='https://github.com/Jin-seop/Cook_for_city_client' target='_blank' rel="noopener noreferrer">
                 <img src={cooksiin} alt='' />
               </a>
               <p>레시피 검색 안드로이드 앱</p>
